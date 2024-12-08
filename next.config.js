@@ -1,10 +1,11 @@
-const github = "static-preview-site/docs"
+const github = "static-preview-site"
+const isProd = process.env.NODE_ENV === 'production';
 
 /**
  * @type {import('next').NextConfig}
  */
 const nextConfig = {
-  assetPrefix:  `/${github}/`,
+  assetPrefix: isProd ? '/static-preview-site/' : '',
   trailingSlash: true,
     output: 'export',
     distDir: 'docs'
