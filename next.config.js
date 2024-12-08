@@ -2,6 +2,8 @@
  * @type {import('next').NextConfig}
  */
 const nextConfig = {
+  assetPrefix: isProd ? `/eaizo/` : '',
+  trailingSlash: true,
     output: 'export',
     distDir: 'docs'
    
