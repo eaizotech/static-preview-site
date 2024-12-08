@@ -1,4 +1,4 @@
-const github = "static-preview-site"
+const github = "static-preview-site/docs"
 
 /**
  * @type {import('next').NextConfig}
