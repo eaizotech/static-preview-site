@@ -1,8 +1,10 @@
+const github = "static-preview-site"
+
 /**
  * @type {import('next').NextConfig}
  */
 const nextConfig = {
-  assetPrefix:  `/docs/`,
+  assetPrefix:  `/${github}/`,
   trailingSlash: true,
     output: 'export',
     distDir: 'docs'
