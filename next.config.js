@@ -3,7 +3,7 @@
  */
 const nextConfig = {
     output: 'export',
-    distDir: 'eaizo'
+    distDir: 'docs'
    
     // Optional: Change links `/me` -> `/me/` and emit `/me.html` -> `/me/index.html`
     // trailingSlash: true,
