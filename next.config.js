@@ -2,6 +2,8 @@
  * @type {import('next').NextConfig}
  */
 const nextConfig = {
+  assetPrefix:  `/docs/`,
+  trailingSlash: true,
     output: 'export',
     distDir: 'docs'
    
