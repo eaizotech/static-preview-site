@@ -1,5 +1,6 @@
 import React from "react";
 import Link from 'next/link';
+import {getAssetPath} from "../utils/common"
 
 export default function Header() {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
@@ -17,7 +18,7 @@ export default function Header() {
                 <img
                   className="object-cover object-center max-w-10"
                   alt="eaizo"
-                  src="./images/eaizo.svg"
+                  src={getAssetPath("/images/eaizo.svg")}
                 ></img>
               </div>
               <div>
